@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/config/config.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1757401031628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1757412314032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,6 +28,6 @@\n \r\n $GLOBALS['porject_url'] = \"/api\";\r\n $GLOBALS['apiBaseurl'] = \"https://mfapi.advisorkhoj.com\";\r\n $GLOBALS['blogBaseurl'] = \"https://mfportfolio.in/api\";\r\n-$GLOBALS['apiKey'] = \"15ce9af6-303b-4591-86fc-77a1799be05b\";\r\n+$GLOBALS['apiKey'] = \"752b972b-1c0b-40e1-adb9-1d3344663fbe\";\r\n $GLOBALS['blogKey'] = \"6edfe7d5-c527-4998-bed6-7f7286a0e0e9\";\r\n"
+                },
+                {
+                    "date": 1757417390581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n $GLOBALS['cssPath'] = $GLOBALS['assetPath'] . \"css/\";\r\n $GLOBALS['jsPath'] = $GLOBALS['assetPath'] . \"js/\";\r\n \r\n $GLOBALS['title'] = \"WEALTH BUILDERS INVESTMENT SERVICES\";\r\n-$GLOBALS['logoPath'] = $assetPath . 'images/logo/logo.png';\r\n+// $GLOBALS['logoPath'] = $assetPath . 'images/logo/logo.png';\r\n $GLOBALS['favIcon'] = $assetPath . 'images/logo/favicon.png';\r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1757417451270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n $GLOBALS['cssPath'] = $GLOBALS['assetPath'] . \"css/\";\r\n $GLOBALS['jsPath'] = $GLOBALS['assetPath'] . \"js/\";\r\n \r\n $GLOBALS['title'] = \"WEALTH BUILDERS INVESTMENT SERVICES\";\r\n-// $GLOBALS['logoPath'] = $assetPath . 'images/logo/logo.png';\r\n+$GLOBALS['logoPath'] = $assetPath . 'images/logo/logo.png';\r\n $GLOBALS['favIcon'] = $assetPath . 'images/logo/favicon.png';\r\n \r\n \r\n \r\n"
+                }
+            ],
+            "date": 1757401031628,
+            "name": "Commit-0",
+            "content": "<?php\r\n\r\n// Automatically detect the base URL (Works on localhost & production)\r\n$host = $_SERVER['HTTP_HOST']; // localhost:8000\r\n$baseFolder = ''; // Change this if your project is inside a subfolder\r\n$protocol = isset($_SERVER['HTTPS']) ? \"https://\" : \"http://\";\r\n$GLOBALS['baseURL'] = $protocol . $host . '/' . $baseFolder;\r\n\r\n// Define asset paths\r\n$GLOBALS['assetPath'] = $GLOBALS['baseURL'] . \"assets/\";\r\n$GLOBALS['imagePath'] = $GLOBALS['assetPath'] . \"images/\";\r\n$GLOBALS['cssPath'] = $GLOBALS['assetPath'] . \"css/\";\r\n$GLOBALS['jsPath'] = $GLOBALS['assetPath'] . \"js/\";\r\n\r\n$GLOBALS['title'] = \"WEALTH BUILDERS INVESTMENT SERVICES\";\r\n$GLOBALS['logoPath'] = $assetPath . 'images/logo/logo.png';\r\n$GLOBALS['favIcon'] = $assetPath . 'images/logo/favicon.png';\r\n\r\n\r\n\r\n$GLOBALS['companyEmail'] = 'wealthbuilders.in@gmail.com';\r\n$GLOBALS['companyMobileNumber'] = '+91 9938036161';\r\n$GLOBALS['companyMobileNumber2'] = '+91 ';\r\n$GLOBALS['companyMobileNumber3'] = '';\r\n$GLOBALS['companyName'] = 'WEALTH BUILDERS INVESTMENT SERVICES';\r\n$GLOBALS['companyAddress'] = ' Plot no- 1120, Naya Sarak (Balu Bazar), Cuttack- 753002';\r\n$GLOBALS['companyAddress1'] = '';\r\n\r\n$GLOBALS['porject_url'] = \"/api\";\r\n$GLOBALS['apiBaseurl'] = \"https://mfapi.advisorkhoj.com\";\r\n$GLOBALS['blogBaseurl'] = \"https://mfportfolio.in/api\";\r\n$GLOBALS['apiKey'] = \"15ce9af6-303b-4591-86fc-77a1799be05b\";\r\n$GLOBALS['blogKey'] = \"6edfe7d5-c527-4998-bed6-7f7286a0e0e9\";\r\n"
+        }
+    ]
+}

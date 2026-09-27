@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/pageHeader.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1761548786308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1761548786308,
+            "name": "Commit-0",
+            "content": "<?php\r\n// Get the current URL path after the domain\r\n$currentPath = trim(parse_url($_SERVER[\"REQUEST_URI\"], PHP_URL_PATH), \"/\");\r\n\r\n// Convert URL segments into an array\r\n$segments = explode(\"/\", $currentPath);\r\n\r\n// Generate the page title dynamically (capitalize first letter of last segment)\r\n$pageTitle = ucwords(str_replace(\"-\", \" \", end($segments))); // Convert slug to title\r\n\r\nfunction formatSegmentTitle($segment) {\r\n    $specialCases = [\r\n        \"about\" => \"About Us\",\r\n        \"contact\" => \"Contact Us\",\r\n        \"pms\"=>\"PMS (Portfolio Management Service)\",\r\n        \"aif\"=>\"AIF (Alternative Investment Fund)\",\r\n        \"sif\"=>\"SIF (Specialized Investment Fund)\",\r\n        \"gold-silver\"=>\"Gold & Silver Investment\",\r\n    ];\r\n    $lowerSegment = strtolower($segment);\r\n    return $specialCases[$lowerSegment] ?? ucwords(str_replace([\"-\", \"_\",\"+\"], \" \", $segment));\r\n}\r\n\r\n// Generate the page title dynamically (capitalize first letter of last segment)\r\n$pageTitle = formatSegmentTitle(end($segments));\r\n\r\n?>\r\n\r\n<div class=\"container-fluid page-header\">\r\n    <div class=\"container text-center py-4\">\r\n\r\n        <h1 class=\"display-2 mb-4 animated slideInDown fs-2 fw-bold text-white\">\r\n            <?php echo $pageTitle; ?>\r\n        </h1>\r\n\r\n        <nav aria-label=\"breadcrumb animated slideInDown\">\r\n            <ol class=\"breadcrumb justify-content-center mb-0\">\r\n                <li class=\"breadcrumb-item text-white\"><a class=\"text-decoration-none\" href=\"/\">Home</a></li>\r\n                <?php\r\n                $url = \"/\";\r\n                foreach ($segments as $index => $segment) {\r\n                    $url .= $segment . \"/\";\r\n                    $segmentTitle = formatSegmentTitle($segment);\r\n\r\n\r\n                    // If it's the last segment, mark it as active\r\n                    if ($index === count($segments) - 2) {\r\n                        echo '<li class=\"breadcrumb-item active text-white\" aria-current=\"page\">' . $segmentTitle . '</li>';\r\n                    } else {\r\n                        echo '<li class=\"breadcrumb-item text-white\"><a class=\"text-decoration-none\" href=\"' . $url . '\">' . $segmentTitle . '</a></li>';\r\n                    }\r\n                }\r\n                ?>\r\n\r\n            </ol>\r\n        </nav>\r\n    </div>\r\n</div>"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/views/services/loan-service.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1757483249939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1759582049825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,10 +61,10 @@\n \r\n     <!-- -------life-insurance service ------ -->\r\n \r\n \r\n+    <?php require_once('src/views/layouts/callus.php'); ?>\r\n \r\n-\r\n     <?php include_once('src/views/layouts/footer.php') ?>\r\n \r\n </body>\r\n \r\n"
+                }
+            ],
+            "date": 1757483249939,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"reactjs\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title><?= $title ?></title>\r\n    <link href=\"<?= $favIcon ?>\" rel=\"shortcut icon\" type=\"image/png\">\r\n\r\n</head>\r\n\r\n<body>\r\n\r\n\r\n    <!-- --- main carusal--- -->\r\n    <?php include_once('src/components/preLoader.php') ?>\r\n    <?php include_once('src/views/layouts/navbar.php') ?>\r\n\r\n    <!-- -------page header------ -->\r\n    <?php require_once('src/components/pageHeader.php'); ?>\r\n    <!-- -------page header------ -->\r\n\r\n\r\n    <!-- -------life-insurance service ------ -->\r\n    <div class=\"container py-5\">\r\n\r\n\r\n        <h4 class=\"\">Loan Service</h2>\r\n        <h6 class=\"mb-2 mt-3\">Loans</h6>\r\n        <p class=\"text-desgin\">A wide variety of loan products are available to suit different needs,\r\n            short term, medium term and long term needs of customers.</p>\r\n        <h6 class=\"pt-3\">Home loan</h6>\r\n        <p class=\"text-desgin\"> Home loan is long term product to finance the purchase of property. You\r\n            have to make a down payment (percentage of the purchase consideration) and the lender will\r\n            provide rest of the funds. For under construction properties, the home loan can also be\r\n            construction linked. You have to make loan re-payments in equal monthly instalments (EMI).\r\n            In home loan, the property will be lien with the lender.</p>\r\n        <h6 class=\"pt-3\">Vehicle loan</h6>\r\n        <p class=\"text-desgin\">Vehicle loan is a medium term product to finance the purchase of a\r\n            vehicle e.g. two wheeler, four wheeler etc. You have to make minimum down payment\r\n            (percentage of the vehicle price) and the lender will provide rest of the funds. You have to\r\n            make loan re-payments in equal monthly instalments (EMI). In vehicle loan, the vehicle will\r\n            be lien with the lender.</p>\r\n        <h6 class=\"pt-3\">Personal loan</h6>\r\n        <p class=\"text-desgin\">This is an unsecured loan for certain short term tenure. Loan approval\r\n            will depend on your credit history. There are two types of personal repayments. The most\r\n            popular repayment is in equal monthly instalments (EMI). Some lenders may allow bullet\r\n            repayment, whereby you will have to pay the interest every month and the principal at the\r\n            end of the tenure.</p>\r\n        <h6 class=\"mb-2 pt-3\">Business Loan</h6>\r\n        <p class=\"text-desgin\">Our expert handles paperwork for quick loan processing. We assist through\r\n            each step, aiding with all documents and processes. Choose from a wide bank/NBFC selection\r\n            for the best deal.</p>\r\n        <h6 class=\"mb-2 pt-3\">Loan against property</h6>\r\n        <p class=\"text-desgin\">Like gold loans, you can also get loan against your property\r\n            (residential or commercial). The loan amount to be disbursed is calculated as percentage of\r\n            the property value. Your property documents will be lien with the lender. Loan against\r\n            property can be medium or long term loans. You have to make loan re-payments in equal\r\n            monthly instalments (EMI).</p>\r\n    </div>\r\n\r\n    <!-- -------life-insurance service ------ -->\r\n\r\n\r\n\r\n\r\n    <?php include_once('src/views/layouts/footer.php') ?>\r\n\r\n</body>\r\n\r\n\r\n\r\n</html>"
+        }
+    ]
+}

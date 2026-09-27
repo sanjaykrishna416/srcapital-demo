@@ -1,0 +1,860 @@
+.homesliderback {
+    background: var(--primary-color);
+}
+
+.homeCalRet {
+    background-color: #ebf6ff;
+    border-radius: 25px;
+}
+
+.homeCalRetText {
+    color: #fff;
+    font-weight: 600;
+    background-image: var(--primary-color);
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+
+.slider-selection {
+    background: #0069b4 !important;
+}
+
+.slider-handle {
+    background-color: #fff;
+    border: 2px solid #009fe3;
+    opacity: 1;
+}
+
+.hide {
+    display: none !important;
+}
+
+
+
+.steps {
+    border-color: var(--primary-color);
+    border-style: none solid;
+    border-width: 0 1px;
+    margin: 0px 0px 35px !important;
+    position: relative;
+    width: 100%;
+}
+
+.tick {
+    color: var(--secondary-color);
+    font-size: 9px;
+    height: 11px;
+    left: 0;
+    line-height: 11px;
+    margin-left: -24px;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0px;
+    width: 50px;
+}
+
+#emipiechart {
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.highcharts-button {
+    display: none;
+}
+
+.list-group-flush>.list-group-item {
+    padding: 20px 10px;
+}
+
+
+@keyframes infiniteslide16775885016091e8c {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(0, -1378px, 0);
+    }
+}
+
+.bg-card-about {
+    background-color: #e8f8ff !important;
+}
+
+
+
+
+/* Steps Markers */
+.steps {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.steps .tick {
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    transform: translateX(7%);
+}
+
+.marker {
+    display: block;
+    margin-top: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+#schemeTable {
+    font-size: 13px;
+}
+
+.table tfoot {
+    --bs-table-bg: #d5f3ff;
+    --bs-table-color: #000;
+}
+
+.table thead {
+    --bs-table-bg: var(--secondary-color);
+    --bs-table-color: #fff;
+    --bs-table-border-color: var(--secondary-color);
+    --bs-table-accent-bg: transparent;
+
+}
+
+.hidden {
+    display: none;
+}
+
+/* Style for the slider track */
+.slider-track {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 2px !important;
+    border-radius: 10px;
+    background: var(--secondary-color) !important;
+    outline: none;
+}
+
+/* Style for the filled portion of the slider */
+.slider-track::-webkit-slider-runnable-track {
+    height: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, var(--secondary-color) 0%, var(--secondary-color) var(--progress), #e5e5e5 var(--progress), #e5e5e5 100%);
+}
+
+/* Style for the slider thumb (pointer) */
+.slider-track::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid var(--secondary-color);
+    cursor: pointer;
+    margin-top: -6px;
+    /* Adjust to align properly */
+}
+
+.slider-track::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid var(--secondary-color);
+    cursor: pointer;
+}
+
+/* Tooltip styling */
+.tooltip {
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    transform: translateX(-50%);
+}
+
+/* Service List Container */
+.service-list {
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Service Items */
+.icon-color{
+
+    color: var(--icon-color);
+}
+
+.breadcrumb p {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.card-heading {
+    background-color: #0061e6;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-login 
+
+ {
+     display: inline-block;         /* Make button only as wide as its content */
+   background: linear-gradient(135deg, #71BA3D, #71BA3D);
+    color:#fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;                   /* Make sure width is auto */
+    max-width: max-content;         /* Ensure button doesn't stretch beyond content */
+    text-align: center;   
+    text-decoration: none;        /* Center text if needed */
+    
+
+}
+
+.btn-login:hover {
+    background-color: #fff !important;
+    border:1px solid #FFC000;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    display: inline-block;         /* Make button only as wide as its content */
+    background: ;
+    color:#fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;                   /* Make sure width is auto */
+    max-width: max-content;         /* Ensure button doesn't stretch beyond content */
+    text-align: center;   
+    text-decoration: none;        /* Center text if needed */
+}
+
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary-color);
+}
+
+
+.btn-outline-primary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+    border: 1px solid var(--primary-color);
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+
+.primary-highlight-text {
+    color: var(--primary-color);
+}
+
+.secondary-highlight-text {
+    color: var(--secondary-color);
+}
+
+.secondary-icon-text{
+
+    color:var(--icon-color);
+}
+
+/* ------------------client changes css in html----------------------- */
+
+.hero-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.hero-content {
+    padding: 30px;
+}
+
+.hero-heading {
+    font-family: DM Sans, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1a2b5c;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.btn-rounded {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+
+.btn-custom {
+    background-color: #1057a2;
+    border: none;
+    color: white;
+}
+
+.btn-custom:hover {
+    color: #1057a2;
+    background-color: white;
+    border: none;
+}
+
+.btn-dark {
+    background-color: #000000;
+    border: none;
+}
+
+/* Spacing between buttons on desktop */
+.hero-buttons .btn {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 2rem;
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
+
+    /* Stack buttons vertically */
+    .hero-buttons {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.about-heading {
+    font-family: DM Sans, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #1057a2;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.about-description {
+    font-size: 1.1rem;
+    color: #333333;
+    line-height: 1.8;
+    max-width: 95%;
+}
+
+.btn-rounded {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .about-heading {
+        font-size: 2rem;
+    }
+
+    .about-description {
+        font-size: 1rem;
+    }
+}
+
+.navbar-brand {
+padding-top:0px !important;
+padding-bottom:0px !important;
+}
+
+   .step-card{
+            min-height:440px;
+            border:1px solid #e5e5e5;
+            padding:45px;
+            position:relative;
+            overflow:hidden;
+            transition:.3s;
+            background:#fff;
+        }
+
+        .step-card:hover{
+            transform:translateY(-5px);
+            box-shadow:0 12px 30px rgba(0,0,0,.08);
+        }
+
+        .step-title-small{
+            font-size:14px;
+            font-weight:600;
+            letter-spacing:1px;
+            color:#9aa5b1;
+            text-transform:uppercase;
+            margin-bottom:25px;
+        }
+
+        .step-title{
+            font-size:42px;
+            font-weight:500;
+            line-height:1.2;
+            margin-bottom:30px;
+        }
+
+        .step-text{
+            font-size:22px;
+            line-height:1.8;
+            color:#555;
+        }
+
+        .step-number{
+            position:absolute;
+            bottom:-20px;
+            left:25px;
+            font-size:90px;
+            font-weight:700;
+            color:#53a8ea;
+            opacity:.85;
+            line-height:1;
+        }
+
+        /* Active Card */
+
+     
+
+        .step-card.active .step-title-small,
+        .step-card.active .step-text{
+            color:#fff;
+        }
+
+        .step-card.active .step-number{
+            color:#59b7ff;
+        }
+
+        @media(max-width:991px){
+
+            .step-card{
+                margin-bottom:20px;
+                min-height:auto;
+            }
+
+            .step-title{
+                font-size:32px;
+            }
+
+            .step-text{
+                font-size:18px;
+            }
+
+            .step-number{
+                position:relative;
+                bottom:0;
+                left:0;
+                margin-top:30px;
+                display:block;
+            }
+        }
+
+        .mobileimg{
+
+           border:5px solid #222628;
+           border-radius:30px;
+           box-shadow: 0 3px 26px rgba(0, 0, 0, 0.3);
+
+        }
+
+        .hero-title{
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.2;
+}
+
+.hero-title{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+@media (max-width: 992px){
+    .hero-title{
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 768px){
+    .hero-title{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 576px){
+    .hero-title{
+        font-size: 35px;
+    }
+}
+
+/* ------------------client changes css in html----------------------- */
+
+
+
+#achievecard .card {
+            position: relative;
+           
+            margin: 30px auto;
+        }
+
+        /* Top orange line */
+        #achievecard .card::before {
+            content: "";
+            position: absolute;
+            top: -12px;
+            left: -12px;
+            width: 235px;
+            height: 12px;
+            background: #ffad16;
+        }
+
+        /* Left gold line */
+        #achievecard .card::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -12px;
+            width: 12px;
+            height: 195px;
+            background: linear-gradient(
+                to bottom,
+                #ffd37a,
+                #ffffff
+            );
+        }
+
+        #achievecard .card {
+            position: relative;
+            z-index: 2;
+            min-height: auto;
+            padding: 30px;
+            background: #191919;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Globe Icon */
+        .service-icon {
+            font-size: 58px;
+            line-height: 1;
+            color: #ffb51b;
+            margin-bottom: 0px;
+        }
+
+        .service-icon h1 {
+            background: linear-gradient(
+                135deg,
+                #ffb51b,
+                #ffffff
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Heading */
+        .service-title {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        /* Description */
+        .service-description {
+            color: #999999;
+            font-size: 21px;
+            line-height: 1.4;
+           
+        }
+
+        /* Arrow button */
+        .service-arrow {
+            width: 30px;
+            height: 30px;
+            border: 2px solid #888888;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #bdbdbd;
+            font-size: 16px;
+            margin-top: 35px;
+            transition: all 0.3s ease;
+        }
+
+        .service-arrow i {
+            transition: transform 0.3s ease;
+        }
+
+        #achievecard .card-body:hover .service-arrow {
+            border-color: #ffb51b;
+            color: #ffb51b;
+        }
+
+        #achievecard .card-body:hover .service-arrow i {
+            transform: translateX(3px);
+        }
+
+        /* Responsive */
+        @media (max-width: 576px) {
+
+            #achievecard .card {
+                width: calc(100% - 40px);
+                max-width: 450px;
+            }
+
+            #achievecard .card-body {
+                min-height: auto;
+                padding: 40px 25px 30px;
+            }
+
+            .service-title {
+                font-size: 24px;
+            }
+
+            .service-description {
+                font-size: 18px;
+            }
+
+            #achievecard .card::before {
+                width: 55%;
+            }
+
+            #achievecard .card::after {
+                height: 190px;
+            }
+        }
+
+    
+        
+          /* Card Wrapper */
+        #achieveendcard .card{
+            position: relative;
+            width: 450px;
+            margin: 30px auto;
+        }
+
+        /* Right Gold Accent */
+        #achieveendcard .card::before {
+            content: "";
+            position: absolute;
+
+              right: -13px;
+            bottom: 0;
+            width: 13px;
+             height: 195px;
+            background: #ffae17;
+          
+           
+        }
+
+        /* Bottom White + Gold Accent */
+       #achieveendcard .card::after {
+            content: "";
+            position: absolute;
+           
+             right: 0;
+            bottom: -11px;
+             width: 225px;
+            height: 11px;
+           background: linear-gradient(
+                to right,
+                #ffffff 0%,
+                #ffffff 35%,
+                #ffd477 70%,
+                #ffae17 100%
+            );
+            
+        }
+
+        /* Main Card */
+        #achieveendcard .card {
+            position: relative;
+            z-index: 2;
+
+            width: 100%;
+            min-height: auto;
+
+            background: #191919;
+
+            padding: 30px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            box-sizing: border-box;
+        }
+
+        /* Lightbulb Icon */
+        .brand-icon {
+            font-size: 58px;
+            line-height: 1;
+          
+
+            background: linear-gradient(
+                135deg,
+                #ffad17,
+                #ffffff,
+                #ffad17
+            );
+
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Title */
+        .brand-title {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        /* Description */
+        .brand-description {
+            color: #999999;
+            font-size: 21px;
+            line-height: 1.42;
+
+            max-width: 390px;
+
+            margin: 30px 0 0;
+        }
+
+        /* Arrow Circle */
+        .brand-arrow {
+            width: 30px;
+            height: 30px;
+
+            margin-top: 35px;
+
+            border: 2px solid #888888;
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            color: #aaaaaa;
+            font-size: 16px;
+
+            transition: all 0.3s ease;
+        }
+
+        .brand-arrow i {
+            transition: transform 0.3s ease;
+        }
+
+        /* Hover Effect */
+         #achieveendcard .card-body:hover .brand-arrow {
+            border-color: #ffad17;
+            color: #ffad17;
+        }
+
+        #achieveendcard .card-body:hover .brand-arrow i {
+            transform: translateX(3px);
+        }
+
+        /* Responsive */
+        @media (max-width: 576px) {
+
+            #achieveendcard .card {
+                width: calc(100% - 40px);
+                max-width: 450px;
+            }
+
+            #achieveendcard .card-body {
+                min-height: auto;
+                padding: 40px 25px 30px;
+            }
+
+            .brand-title {
+                font-size: 24px;
+            }
+
+            .brand-description {
+                font-size: 18px;
+            }
+
+            #achieveendcard .card::before {
+                right: -10px;
+                width: 10px;
+                height: 190px;
+            }
+
+           #achieveendcard .card::after {
+                right: 0;
+                bottom: -9px;
+                height: 9px;
+                width: 55%;
+            }
+        }
+
+
+        #servicescard .card
+        
+        {
+
+            padding:30px;
+            border-radius:30px;
+
+        }
+
+        .text-secondary{
+
+            color:#093F78 !important;
+        }
+
+#mobileappimg img{
+
+   
+    border-radius:10px !important;
+
+}
