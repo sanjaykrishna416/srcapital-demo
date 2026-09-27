@@ -3,7 +3,7 @@
 // Automatically detect the base URL (Works on localhost & production)
 $host = $_SERVER['HTTP_HOST']; // localhost:8000
 $baseFolder = ''; // Change this if your project is inside a subfolder
-$protocol = isset($_SERVER['HTTPS']) ? "https://" : "http://";
+$protocol = ((isset($protocol = isset($_SERVER['HTTPS']) ? "https://" : "http://";SERVER['HTTPS']) && $protocol = isset($_SERVER['HTTPS']) ? "https://" : "http://";SERVER['HTTPS'] !== 'off') || (isset($protocol = isset($_SERVER['HTTPS']) ? "https://" : "http://";SERVER['HTTP_X_FORWARDED_PROTO']) && $protocol = isset($_SERVER['HTTPS']) ? "https://" : "http://";SERVER['HTTP_X_FORWARDED_PROTO'] === 'https')) ? "https://" : "http://";
 $GLOBALS['baseURL'] = $protocol . $host . '/' . $baseFolder;
 
 // Define asset paths
