@@ -1,11 +1,11 @@
 RewriteEngine On
 
-# Allow direct access to existing files and directories
+# Route API requests to index.php (only if not a real file/folder)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-
-# Route API requests to index.php
 RewriteRule ^api/(.*)$ index.php?route=api/$1 [QSA,L]
 
-# Route all other requests to index.php
+# Route all other requests to index.php (only if not a real file/folder)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [QSA,L]
