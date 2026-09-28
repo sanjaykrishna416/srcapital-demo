@@ -1,5 +1,3 @@
-
-
 <?php
 
 // Automatically detect the project base URL (Works locally & in production)
