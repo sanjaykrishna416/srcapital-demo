@@ -3,7 +3,9 @@
 // Automatically detect the base URL (Works on localhost & production)
 $host = $_SERVER['HTTP_HOST']; // localhost:8000
 $baseFolder = ''; // Change this if your project is inside a subfolder
-$protocol = ((isset($protocol = isset($_SERVER['HTTPS']) ? "https://" : "http://";SERVER['HTTPS']) && $protocol = isset($_SERVER['HTTPS']) ? "https://" : "http://";SERVER['HTTPS'] !== 'off') || (isset($protocol = isset($_SERVER['HTTPS']) ? "https://" : "http://";SERVER['HTTP_X_FORWARDED_PROTO']) && $protocol = isset($_SERVER['HTTPS']) ? "https://" : "http://";SERVER['HTTP_X_FORWARDED_PROTO'] === 'https')) ? "https://" : "http://";
+$isHttps = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+    || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https');
+$protocol = $isHttps ? "https://" : "http://";
 $GLOBALS['baseURL'] = $protocol . $host . '/' . $baseFolder;
 
 // Define asset paths
@@ -23,7 +25,7 @@ $GLOBALS['companyMobileNumber'] = '+91 97892 15598';
 $GLOBALS['companyMobileNumber2'] = ' ';
 $GLOBALS['companyMobileNumber3'] = '';
 $GLOBALS['companyName'] = 'SR Capital Service';
-$GLOBALS['companyAddress'] = ' No. 20, Kavalan Street, Upstairs Thuglife,  Kanchipuram – 631501';
+$GLOBALS['companyAddress'] = ' No. 20, Kavalan Street, Upstairs Thuglife,  Kanchipuram - 631501';
 $GLOBALS['companyAddress1'] = '';
 
 $GLOBALS['porject_url'] = "/api";
