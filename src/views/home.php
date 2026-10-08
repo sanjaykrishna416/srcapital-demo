@@ -417,7 +417,7 @@ $newsList = APIService::getLimitedNews(5);
 
 
 
-  <!--   <section class="py-5 bg-light">
+   <section class="py-5 bg-light">
         <div class="container py-5">
             <div class="text-center">
                 <div class="row">
@@ -434,24 +434,24 @@ $newsList = APIService::getLimitedNews(5);
                         <div class="item">
                             <div class="testimonial-card">
                              
-                                          <img style="width:100px" class="mb-3 img-fluid" src="/assets/images/testimonial/user.jpg"  >
-                                        <h6 class="user-name">Jhon David </h6>
-                                        <small class="user-role">USA</small>
+                                          <img style="width:100px" class="mb-3 img-fluid" src="../assets/images/testimonial/tansilk.jpeg"  >
+                                        <h6 class="user-name">TAN SILK </h6>
+                                        <small class="user-role">Retired administrative officer </small>
                                     
                                      
                                 <hr> 
                                 <p class="testimonial-text">
-                                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."  
+                                    "I have been investing with SR Capital Mutual Fund Services since I started working, and I’m truly grateful to have discovered their services early in my investment journey. Their thorough assessment before investing helped me understand my risk appetite and the importance of staying ahead of inflation to achieve meaningful, real growth in my investments."  
                                 </p>
 
 
-                                <button class="btn btn-sm btn-primary mt-auto" data-user="Jhon David"
+                                <!-- <button class="btn btn-sm btn-primary mt-auto" data-user="Jhon David"
                                     data-role="Jhon David" data-full="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."  
 
                                     data-bs-toggle="modal"
                                     data-bs-target="#testimonialModal">
                                     Read More
-                                </button>
+                                </button> -->
 
                             </div>
                         </div> 
@@ -468,14 +468,14 @@ $newsList = APIService::getLimitedNews(5);
                                     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."  
                                 </p>
 
-
+<!-- 
                                 <button class="btn btn-sm btn-primary mt-auto" data-user="Jhon David"
                                     data-role="Jhon David" data-full="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."  
 
                                     data-bs-toggle="modal"
                                     data-bs-target="#testimonialModal">
                                     Read More
-                                </button>
+                                </button> -->
 
                             </div>
                         </div> 
@@ -492,14 +492,14 @@ $newsList = APIService::getLimitedNews(5);
                                     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."  
                                 </p>
 
-
+<!-- 
                                 <button class="btn btn-sm btn-primary mt-auto" data-user="Jhon David"
                                     data-role="Jhon David" data-full="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."  
 
                                     data-bs-toggle="modal"
                                     data-bs-target="#testimonialModal">
                                     Read More
-                                </button>
+                                </button> -->
 
                             </div>
                         </div> 
@@ -517,14 +517,14 @@ $newsList = APIService::getLimitedNews(5);
                                     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."  
                                 </p>
 
-
+<!-- 
                                 <button class="btn btn-sm btn-primary mt-auto" data-user="Jhon David"
                                     data-role="Jhon David" data-full="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets."  
 
                                     data-bs-toggle="modal"
                                     data-bs-target="#testimonialModal">
                                     Read More
-                                </button>
+                                </button> -->
 
                             </div>
                         </div> 
@@ -536,7 +536,7 @@ $newsList = APIService::getLimitedNews(5);
                 </div>
             </div> 
         </div>
-    </section> -->
+    </section> 
 
     <!-- ------- about us------ -->
 
